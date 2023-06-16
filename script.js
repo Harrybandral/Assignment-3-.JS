@@ -42,13 +42,13 @@ class restaurantManger {
     },
   ];
 
+  //3
   printAllRestaurantNames = () => {
-    //3
     return this.restaurantList.map((restaurant) => restaurant.restaurantName);
   };
 
+  //4
   filterRestaurantByCity = (cityname) => {
-    //4
     return this.restaurantList.filter(
       (restaurant) => restaurant.city == cityname
     );
